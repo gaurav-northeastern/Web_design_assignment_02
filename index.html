@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Sharma - Professional Portfolio</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="icon" href="assests/images/engineer.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <h1>Gaurav Sharma</h1>
+        <nav>
+            <menu>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </menu>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="assests/images/gaurav.jpg" alt="Gaurav Sharma" class="profile-photo">
+            <p>I am Gaurav Sharma, a Software Engineer who is currently learning Web technologies like HTML, CSS and
+                JS,
+                And have a Bachelor Degree in computer Science engineering with 3.4 GPA, Experienced with Back-End
+                technologies like Node JS.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MySQL</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>E-commerce Website</td>
+                        <td>A fully functional online store with product catalog and shopping cart</td>
+                        <td>React, Node.js, MongoDB</td>
+                    </tr>
+                    <tr>
+                        <td>Weather App</td>
+                        <td>Real-time weather information application</td>
+                        <td>JavaScript, OpenWeatherMap API</td>
+                    </tr>
+                    <tr>
+                        <td>Task Manager</td>
+                        <td>A simple to-do list application with user authentication</td>
+                        <td>HTML, CSS, JavaScript, Firebase</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="gallery">
+                <a href="assests/pdf/Coding block certificate.pdf" target="_blank">
+                    <figure>
+                        <img src="assests/Certificate/Coding block certificate_page-0001.jpg"
+                            alt="Web Development Certification">
+                        <figcaption>Web Development Certification</figcaption>
+                    </figure>
+                </a>
+                <a href="assests/pdf/Gaurav-Internship-Appointment-Certificate.pdf" target="_blank">
+                    <figure>
+                        <img src="assests/Certificate/Gaurav Internship Appointment Certificate_page-0001.jpg"
+                            alt="JavaScript Mastery">
+                        <figcaption>JavaScript Mastery</figcaption>
+                    </figure>
+                </a>
+                <a href="assests/pdf/Ract-Institute.pdf" target="_blank">
+                    <figure>
+                        <img src="assests/Certificate/Ract Institute™ (1)_page-0001.jpg" alt="React Specialist">
+                        <figcaption>React Specialist</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Phone: <a href="tel:+18573400140">+1 857300140</a></p>
+                <p>Email: <a href="mailto:sharma.gaurav@northeastern.edu">sharma.gaurav@northeastern.edu</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gaurav Sharma. All rights reserved.</p>
+
+    </footer>
+
+    <audio controls>
+        <source src="path_to_your_audio_file.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <video controls width="320" height="240">
+        <source src="path_to_your_video_file.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <details>
+        <summary>Click to view my resume</summary>
+        <a href="assests/pdf/Resume.pdf" download>Gaurav_Resume</a>
+    </details>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="assests/js/script.js"></script>
+</body>
+
+</html>
